@@ -88,20 +88,6 @@ ax_left.plot(dates, y_left, label=y_left_label, color='y')  # yellow
 
 ---
 
-## Example output (embed-ready)
-
-If you're referencing these from a blog, you can use GitHub raw paths:
-
-```markdown
-![DJIA: USD vs per-oz-of-gold](https://raw.githubusercontent.com/basperheim/historic-stock-price-in-gold/master/chart_djia_usd_vs_gold.png)
-
-![NASDAQ: USD vs per-oz-of-gold](https://raw.githubusercontent.com/basperheim/historic-stock-price-in-gold/master/chart_nasdaq_usd_vs_gold.png)
-```
-
-_(Change `master` to your default branch if different.)_
-
----
-
 ## Data notes & caveats
 
 - **Free data:** `yfinance` wraps publicly accessible Yahoo endpoints. Availability can vary by symbol/region; indices work well, and `GC=F` is generally stable.
